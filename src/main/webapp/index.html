@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:margin="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TO DO List</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" charset="UTF-8">
+
+</head>
+<body style="background-color: #c7b39b">
+
+<div align="center">
+    <h1 align="center">Добро пожаловать в Ваш список задач!</h1>
+    <h1 align="center">Создать задачу:</h1>
+    <form method="post" action="session_main">
+
+        <table>
+            <tr>
+                <td>Введите название задачи:</td>
+                <td><input type="text" name="title" required="required" style="width: 500px"></td>
+            </tr>
+            <tr>
+                <td>Введите описание задачи:</td>
+                <td><input type="text" name="description" style="width: 500px"></td>
+            </tr>
+
+
+        </table>
+        <tr>
+            <td>
+                <input type="submit" value="Создать" style="margin-top: 15px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="reset" value="Очистить введенные данные"
+                       style="margin-top: 15px">
+            </td>
+        </tr>
+
+    </form>
+    <form action="/session_main">
+        <button type="submit" style="margin-top: 15px">Показать все задачи</button>
+    </form>
+</div>
+</body>
+</html>

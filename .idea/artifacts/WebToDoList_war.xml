@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebToDoList:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="WebToDoList-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WebToDoList:war exploded" />
+    </root>
+  </artifact>
+</component>
